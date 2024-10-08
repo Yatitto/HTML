@@ -1,14 +1,31 @@
-<!DOCTYPE html> <!-- Doctype no requiere tag de cierre -->
-<html> <!-- Etiqueta raíz del documento -->
+<!DOCTYPE html>
+<!-- 
+  <!DOCTYPE html> es la declaración del tipo de documento. Indica que estamos utilizando HTML5.
+  No requiere una etiqueta de cierre. 
+-->
+<html lang="es">
+  <!-- <html> es la etiqueta raíz que envuelve todo el contenido de la página web. El atributo lang="es" especifica el idioma principal del documento, en este caso español. -->
   <head>
+    <!-- 
+      <head> contiene metadatos que no son visibles directamente en la página. Aquí se definen aspectos como la codificación de caracteres, el título del documento y recursos externos como hojas de estilo o scripts.
+    -->
 
-    <!-- Va a contener los metadatos como la codificación de caracteres, el título del documento y recursos enlazados -->
-    
-    <meta charset="UTF-8" /> <!-- La etiqueta meta recibe un parametro para que el navegador interprete su funcionamiento -->
+    <meta charset="UTF-8" />
+    <!-- 
+      La etiqueta <meta charset="UTF-8"> define la codificación de caracteres del documento, lo que asegura que caracteres especiales (como acentos) se muestren correctamente en la página. 
+    -->
 
-    <title>⚡️ Aprendiendo HTML en Visual Studio Code 🚀</title> <!-- Va a mostrar el nombre del documento en las Tabs del navegador  -->
+    <title>⚡️ Aprendiendo HTML en Visual Studio Code 🚀</title>
+    <!-- 
+      <title> define el título que aparecerá en la pestaña del navegador. Es importante para la experiencia del usuario y para el SEO (posicionamiento en buscadores). 
+    -->
 
-    <link rel="stylesheet" href="./style.css" /> <!-- La etiqueta link nos permite enlazar un recurso como las hojas de estilo. -->
-  
-  </head> 
+    <link rel="stylesheet" href="./style.css" />
+    <!-- 
+      La etiqueta <link> sirve para enlazar recursos externos, como archivos CSS. El atributo href indica la ruta del archivo a enlazar, en este caso una hoja de estilos llamada style.css.
+    -->
+  </head>
+  <body>
+    <!-- El contenido visible de la página va dentro del <body>. Asegúrate de incluirlo en futuros ejemplos para una estructura completa. -->
+  </body>
 </html>

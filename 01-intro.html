@@ -1,53 +1,32 @@
 <!--
-  Esto es un bloque de comentario.
+  Comentario:
 
-  Todo el texto dentro de estas llaves se considera un comentario.
+  Este es un bloque de comentario.
+  Todo lo que se encuentra dentro de estos símbolos no será visible en la página web.
 
-  Para crera un bloque de comentario podemos usar el shortcut o atajo de teclado
+  Estructura básica de un documento HTML5:
 
-  alt + shift + a  
--->
+  1. <!DOCTYPE html> - Define que el documento es de tipo HTML5. Esto ayuda a los navegadores a interpretar correctamente el código.
 
-<!-- 
+  2. <html lang="es"> - Esta etiqueta indica el inicio del documento HTML. El atributo 'lang' especifica el idioma del contenido de la página (en este caso, español).
 
-  Estructura básica de un documento html
+  3. <head> - Dentro de esta etiqueta colocamos información importante para el navegador y los motores de búsqueda, como el conjunto de caracteres, el título de la página, enlaces a archivos CSS, y scripts. El contenido del <head> no se muestra directamente en la página.
 
-  En HTMl tenemos 3 etiquetas básicas.
+  4. <body> - Aquí es donde colocamos todo el contenido visible de la página, como textos, imágenes, enlaces y otros elementos que verán los usuarios.
 
-  1. Doctype - Indica el tipo de documento que estamos creando y/o la versión de HTML.
+  Las etiquetas en HTML tienen una etiqueta de apertura (<etiqueta>) y una de cierre (</etiqueta>), excepto las etiquetas auto-contenidas (como <img>).
 
-  2. Estiqueta <head> - Es un espacio para pasar información, llamar otros archivos y scripts que se usarán en el documento. Lo que escribamos dentro no se imprime en el documento.
-
-  3. Etiqueta <body> - Es un espacio para colocar todas las etiquetas que construiran la estructura del documento. Lo que escribamos aquí dentro si será impreso por el navegador.
-  
-  * Las etiquetas <head> y <body> se escriben dentro de una etiqueta <html>
-
-
-  Sintaxi de una etiqueta
-
-  Los nombres de las etiquetas se scriben dentre los símbolos '<' y '>'.
-  
-  La mayoría de los elementos en html tienen una etiqueta de apertura y una de cierre.
-
-  Etiqueta de apertura:
-
-  <head>
-
-  Etiqueta de cierre:
-
-  </head> Se coloca una diágonal antes del nombre.
-
-  Hay algunos elementos de html que no tienen etiqueta de cierre. Se les llaman de autocierre o 'selfclosing'
-
-  Etiqueta de autocierre:
-
-  <img /> Se coloca un espacio y una diágonal despúes del nombre.
 -->
 
 <!DOCTYPE html>
-<html>
-  <head></head>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Documento HTML Básico</title>
+    <!-- Aquí podrías agregar archivos CSS o JavaScript -->
+  </head>
   <body>
-    <h1>Aprendiendo HTML 5</h1>
+    <h1>Bienvenido a HTML5</h1>
+    <!-- Aquí es donde se muestra el contenido visible de la página -->
   </body>
 </html>

@@ -1,1 +1,6 @@
+/* 
+  Esta regla CSS establece el color de fondo de toda la página en rojo.
+  Al aplicar la propiedad 'background-color' a la etiqueta <html>, todo el fondo del documento, incluidas las áreas no ocupadas por contenido, se coloreará de rojo.
+*/
+
 html { background-color: red } 
