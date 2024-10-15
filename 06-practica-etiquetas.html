@@ -1,0 +1,150 @@
+<!-- 
+  Instrucciones Práctica
+
+  1. Estructura General
+
+    1.1 Escribir la estructura general html.
+    1.2 Colocar su nombre como título del documento 
+
+  2. Creando la cabecera
+
+    2.1. Crear una etiqueta <header> y colocar dos <section> internas.
+    2.2. En el primer <section>, crear un <nav> con 4 enlaces muertos <a href="#"> 
+    2.3 Los enlaces serán: Acerca de mi, Intereses, Habilidades y Contacto.
+    2.5 En el segundo <section> colocar una <img> y vincular un logotipo en png.
+    2.6 Cortar y pegar la sección del logotipo antes que la sección de navegación.
+  
+  3. Creando el Main y sus secciones.
+
+    3.1 Crear la etiqueta main
+    3.2 Dentro colocar tres secciones.
+    
+    > Sección acerca de
+
+    3.3 En la primera sección colocar dos div.
+    3.4 En el primer div, colocar una imagen con su fotografía.
+    3.5 En el segundoo div, colocar un h1 que diga "Diseñador Multimedia y un párrafo con una breve descripción de ustedes. 
+
+    + Sección intereses
+
+    3.6 En la segunda sección, crear un header y dentro un h2 con el texto: Interéses.
+    3.7 Crear una lista ordenada con 5 elementos con información de sus intereses. Esta etiqueta debe ser hermana de el header de seccion.
+
+    + Sección habilidades
+
+    3.8 En la tercera sección, hacer lo mismo que en la segunda, pero usar una lista no ordenada.
+
+  4. Creando el footer (Contacto)
+
+    4.1 Crear la etiqueta <footer> internamente 4 div
+    4.2 En la primera división vamos a colocar el logotipo del header.
+    4.3 En la segunda división colocamos una lista no ordenada con el correo electrónico y el celular.
+    4.4 En la tercera divisón colocamos una lista no ordenada con 3 elementos de redes sociales.
+    4.5 En la cuarta división colocamos en un parrafo el copyrigth. "© 2024"
+    4.6 Agregar al segundo y tercer div, un  h3 con el nombre de la lista "Contacto" y "Redes Sociales.  
+-->
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>😎 Yatto López</title>
+</head>
+<body>
+
+  <header>
+    <section>
+      <img src="./logotipo-yatto.png" alt="Logotipo Yatto" height="30px" />
+    </section>
+    <section>
+      <nav>
+        <a href="#">Acerca de mi</a>
+        <a href="#">Intereses</a>
+        <a href="#">Habilidades</a>
+        <a href="#">Contacto</a>
+      </nav>
+    </section>
+  </header>
+
+  <main>
+
+    <section>
+
+      <div>
+        <img src="./foto-yatto.png" alt="Fotografía Yatto" width="200px" />
+      </div>
+      
+      <div>
+        <h1>Diseñador Multimedia</h1>
+        <p>Hola, Soy Yatziel Ilhuicatl, actualmente curso la Licenciatura en Diseño y Producción Multimedia.Me encanta participar en proyectos creativos con personas chéveres y emprendedoras.</p>
+      </div>
+      
+    </section>
+    
+    <section>
+      <header>
+        <h2>Intereses</h2>
+      </header>
+      <ol>
+        <li>Familia 👩‍❤️‍💋‍👨</li>
+        <li>Música 🎶</li>
+        <li>Pizza 🍕</li>
+        <li>Viajes 🛩</li>
+        <li>Educación 🧑🏻‍🏫</li>
+      </ol>
+    </section>
+    
+    <section>
+      <header>
+        <h2>Habilidades</h2>
+      </header>
+      <ul>
+        <li>Diseño ✏️</li>
+        <li>Comunicación 🗣</li>
+        <li>Dormir 😴</li>
+        <li>Batería 🥁</li>
+        <li>Postergar ☠️</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+
+    <div>
+      <img src="./logotipo-yatto.png" alt="Logotipo Yatto" height="30px" />
+    </div>
+    
+    <div>
+      <h3>Contacto</h3>
+      <ul>
+        <li>ylopez@asmedia.edu.mx</li>
+        <li>(+52) 123 456 7890</li>
+      </ul>
+    </div>
+    
+    <div>
+      <h3>Redes Sociales</h3>
+      <ul>
+        <li>Facebook</li>
+        <li>Instagram</li>
+        <li>Twitter</li>
+      </ul>
+    </div>
+    
+    <div>
+      <p>©2024</p>
+    </div>
+
+  </footer>
+
+</body>
+</html>
