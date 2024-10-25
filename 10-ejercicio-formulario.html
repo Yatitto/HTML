@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🚀 Ejercicio Formulario</title>
+</head>
+<body>
+  <h1>🚀 Ejercicio Formulario</h1>
+
+  <!-- Sección Contacto -->
+
+  <section>
+
+    <h2>Contacto</h2>
+
+    <!-- 
+      
+      Atributos comunes en inputs
+
+      placeholder="valor" -> Mostrar un texto dentro del campo antes de que el usuario escriba algo. Es como una sugerencia del dato que se espera.
+
+      required -> No recibe valor, es un atributo booleano. Indica que el campo es obligatorio y debe ser completado antesde poder enviar el formulario.
+
+    -->
+
+
+    <form id="formulario">
+
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" placeholder="Juan Perez" required />
+      <br>
+
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" placeholder="email@correo.com" required />
+      <br>
+
+      <label for="mensaje">Mensaje</label>
+      <textarea id="mensaje" placeholder="Escribe tu mensaje."></textarea>
+      <br>
+
+      <button type="submit">Enviar 🚀</button>
+
+    </form>
+
+
+    <!-- Contenedor del mensaje de confirmación (ficticio) -->
+
+    <div id="mensaje" style="display: none;">
+      <p>¡Gracias por enviar tus datos, nos comunicaremos contigo pronto! 😘</p>
+    </div>
+
+    <script>
+      /* Codigo para que funcione el formulario... */
+
+
+
+    </script>
+
+  </section>
+</body>
+</html>
